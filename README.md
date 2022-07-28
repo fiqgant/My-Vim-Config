@@ -90,7 +90,7 @@ let g:dashboard_default_executive ='fzf'
 ## Semshi Custom Highlightss
 ```vim
 function MyCustomHighlights()
-    hi semshiGlobal      ctermfg=blue guifg=#61afef
+    	hi semshiGlobal      ctermfg=blue guifg=#61afef
 	hi semshiImported    ctermfg=red guifg=#d28fd7 cterm=bold gui=bold
 	hi semshiBuiltin     ctermfg=yellow guifg=#f5d08b
 	hi semshiSelected    ctermfg=white guifg=#dddddd ctermbg=gray guibg=#454c5a
