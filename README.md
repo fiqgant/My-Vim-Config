@@ -33,3 +33,67 @@ set shiftwidth=4
 set smarttab
 set encoding=UTF-8
 ```
+
+## NERDTree Configuration
+```vim
+let g:NERDTreeDirArrowExpandable="+"
+let g:NERDTreeDirArrowCollapsible="~"
+let g:python_highlight_all = 1
+
+nnoremap <C-f> :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-l> :UndotreeToggle<CR>
+nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+```
+
+## Coc
+```vim
+:CocInstall coc-python
+:CocInstall coc-javascript
+:CocInstall coc-snippets
+:CocCommand snippets.edit... FOR EACH FILE TYPE
+```
+
+## VIM AIRLINE CONFIGURATION
+```vim
+let g:airline_powerline_fonts = 1
+
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+let g:bullets_enabled_file_types = [
+    \ 'markdown',
+    \ 'text'
+    \]
+
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ''
+```
+
+## Tagbar
+```vim
+nmap <F8> :TagbarToggle<CR>
+```
+
+## Dashboard
+```vim
+let g:dashboard_default_executive ='fzf'
+```
+
+## Semshi Custom Highlightss
+```vim
+function MyCustomHighlights()
+    hi semshiGlobal      ctermfg=blue guifg=#61afef
+	hi semshiImported    ctermfg=red guifg=#d28fd7 cterm=bold gui=bold
+	hi semshiBuiltin     ctermfg=yellow guifg=#f5d08b
+	hi semshiSelected    ctermfg=white guifg=#dddddd ctermbg=gray guibg=#454c5a
+endfunction
+autocmd FileType python call MyCustomHighlights()
+```
