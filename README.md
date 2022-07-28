@@ -1,9 +1,18 @@
 # My Neovim Config
 
+## Screenshots
+![neovim](https://raw.githubusercontent.com/fiqgant/My-Neovim-Config/main/Screenshots/nvim1.png)
+
+![neovim](https://raw.githubusercontent.com/fiqgant/My-Neovim-Config/main/Screenshots/nvim2.png)
+
+![neovim](https://raw.githubusercontent.com/fiqgant/My-Neovim-Config/main/Screenshots/nvim3.png)
+
+![neovim](https://raw.githubusercontent.com/fiqgant/My-Neovim-Config/main/Screenshots/nvim4.png)
+
 ## Plugin
 - [surround.vim](http://github.com/tpope/vim-surround)
 - [commentary.vim](https://github.com/tpope/vim-commentary)
-- - [fugitive.vim](https://github.com/tpope/vim-fugitive)
+- [fugitive.vim](https://github.com/tpope/vim-fugitive)
 - [The NERDTree](https://github.com/preservim/nerdtree)
 - [vim-airline](https://github.com/vim-airline/vim-airline)
 - [vim-devicons](https://github.com/ryanoasis/vim-devicons)
