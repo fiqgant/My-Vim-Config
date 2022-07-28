@@ -22,7 +22,7 @@
 
 
 ## General Configuration
-```nvim
+```vim
 set number
 set relativenumber
 set mouse=a
