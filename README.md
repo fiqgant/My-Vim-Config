@@ -1,4 +1,4 @@
-# My Neovim Config
+# My Vim Config
 
 ## Screenshots
 ![neovim](https://raw.githubusercontent.com/fiqgant/My-Neovim-Config/main/Screenshots/nvim1.png)
